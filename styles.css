@@ -37,3 +37,58 @@ ul {
     font-size: 24px;
     font-weight: bold;
 }
+
+section {
+    height: 500px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-hero {
+    display: flex;
+    gap: 45px;
+    align-items: stretch;
+    height: 250px;
+}
+
+.text {
+    flex-basis: 500px;
+}
+
+.text > h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text > button {
+    color: #e5e7eb;
+    background-color: #3b82f6;
+    padding: 8px 34px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.placeholder {
+    background-color: #6d747d;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 500px;
+}
