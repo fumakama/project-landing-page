@@ -134,3 +134,34 @@ section {
     margin: 8px 0px;
     font-size: 18px;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 220px;
+    background-color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 700px;
+    flex-grow: 0;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    margin: 36px 0px 0px;
+}
+
+#author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
