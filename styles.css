@@ -72,7 +72,7 @@ section {
     color: #e5e7eb;
 }
 
-.text > button {
+button {
     color: #e5e7eb;
     background-color: #3882f6;
     padding: 8px 34px;
@@ -166,3 +166,41 @@ section {
     font-weight: bold;
     font-size: 20px;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px
+}
+
+.action-area {
+    flex-grow: 1;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 100px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.action-area > button {
+    border: 2px solid #e5e7eb;
+    flex-shrink: 0;
+}
+
+.action-area-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.action-area-left > * {
+    margin: 0px;
+    color: #e5e7eb;
+}
+
