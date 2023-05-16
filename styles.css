@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    flex-grow: 1;
 }
 
 body > * {
@@ -204,3 +205,13 @@ button {
     color: #e5e7eb;
 }
 
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
